@@ -1,8 +1,13 @@
 const Footer = () => {
     const today = new Date();
+    const footerStyle = {
+      backgroundColor : "#353535",
+      color : "#fff"
+    };
+
   return (
     
-    <footer>
+    <footer style = {footerStyle}>
 
         <p>
             Copyright &copy; {today.getFullYear()}
