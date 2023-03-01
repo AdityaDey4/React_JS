@@ -1,21 +1,24 @@
-
+import { useState } from "react";
 const Content = () => {
+
+    const [name, setname] = useState("Aditya");    
+    const [count, setCount] = useState(0);
 
     const handleNameChange = ()=> {
 
-        const name = ['Bob', 'Kevin', 'Aditya'];
+        const names = ['Bob', 'Kevin', 'Aditya'];
         const random = Math.floor(Math.random()*3);
     
-        return name[random];
+        setname(names[random]);
     }
-    const handleClick = ()=> {
-        console.log("You clicked it...");
+    const handleClick = ()=> { 
+        setCount(count+1);
+        setCount(count+1);
+        console.log(count);
+        // when we call this function, then whatever the initial value of count is, that value will be printed
     }
-    const handleClick2 = (name)=> {
-        console.log("You clicked it... "+name);
-    }
-    const handleClick3 = (e)=> {
-        console.log(e.target.innerText);
+    const handleClick2 = ()=> {
+        console.log(count); 
     }
 
     return (
@@ -23,14 +26,13 @@ const Content = () => {
         <main>
 
             <p>
-                Hello {handleNameChange()}!
+                Hello {name}!
             </p>
             
+            <button onClick={handleNameChange}>Change Name</button>
             <button onClick={handleClick}>Click me</button>
-            <button onClick={() => handleClick2("Aditya")}>Click me</button>
-            <button onClick={(e) => handleClick3(e)}>Click me</button>
-            
-            {/* double click does not work properly because in react double click = single click & again single click */}
+            <button onClick={handleClick2}>Click me</button>
+
         </main>
     )
 }
