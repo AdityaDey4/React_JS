@@ -1,7 +1,7 @@
-const Footer = () => {
+const Footer = ({length}) => {
     const today = new Date();
     const footerStyle = {
-      backgroundColor : "#353535",
+      backgroundColor : "mediumblue",
       color : "#fff"
     };
 
@@ -10,7 +10,8 @@ const Footer = () => {
     <footer style = {footerStyle}>
 
         <p>
-            Copyright &copy; {today.getFullYear()}
+            {/* Copyright &copy; {today.getFullYear()} */}
+            {length} List {length <= 1 ? "Item" : "Items"} 
         </p>
     </footer>
   )
