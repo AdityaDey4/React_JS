@@ -8,3 +8,4 @@ Whatever I learned about react is here........
 5. List & Keys
 6. Props & Prop Drilling
 7. Forms & Controlled Input
+8. UseEffect Hook
