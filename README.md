@@ -7,3 +7,4 @@ Whatever I learned about react is here........
 4. UseState Hook
 5. List & Keys
 6. Props & Prop Drilling
+7. Forms & Controlled Input
