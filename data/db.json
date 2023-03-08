@@ -7,18 +7,18 @@
     },
     {
       "id": 2,
-      "check": false,
+      "check": true,
       "item": "Burger"
     },
     {
-      "id": 3,
-      "check": false,
-      "item": "Fried Potato"
+      "id": 4,
+      "check": true,
+      "item": "Samosa with chili sause"
     },
     {
-      "id": 4,
+      "id": 6,
       "check": false,
-      "item": "Samosa with chili sause"
+      "item": "Tanduri Chicken"
     }
   ]
 }
