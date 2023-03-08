@@ -10,3 +10,4 @@ Whatever I learned about react is here........
 7. Forms & Controlled Input
 8. UseEffect Hook
 9. Create JSON Server & Fetch data from API
+10. CRUD operations using JSON Server
