@@ -1,0 +1,24 @@
+{
+  "myItems": [
+    {
+      "id": 1,
+      "check": true,
+      "item": "Pizza"
+    },
+    {
+      "id": 2,
+      "check": false,
+      "item": "Burger"
+    },
+    {
+      "id": 3,
+      "check": false,
+      "item": "Fried Potato"
+    },
+    {
+      "id": 4,
+      "check": false,
+      "item": "Samosa with chili sause"
+    }
+  ]
+}
